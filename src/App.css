@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --app-height: 100%;
+  --dark-blue: #212529;
+  --light-green: #c0d8d8;
+  --green: #4aa3a3;
+  --dark-green: #3a5f5f;
+  --darker-green: #224b4b;
+  --very-dark-green: #1d2f2f;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: "Russo One", sans-serif;
+  background-color: #87b5b5;
+  color: var(--dark-blue);
+}
